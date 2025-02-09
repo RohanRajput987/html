@@ -1,3 +1,6 @@
 body{
     background-color:rgb(153, 204, 224)
 }
+td{
+    border:2px solid black;
+}

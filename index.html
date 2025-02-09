@@ -3,29 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My Bookmarks</title>
+    <title> Images </title>
     <link rel="stylesheet" href="style.css">
-    <script></script>
 </head>
 <body>
-    <h1>Primary Bookmarks</h1>
-    <p>
-        <a target="_blank" href="https://www.google.com">Open Google</a>
-    </p>
-    <p>
-        <a target="_blank" href="https://www.youtube.com">Open youtube</a>
-    </p>
-    <p> 
-        <a target="_blank" href="https://www.facebook.com">Open facebook</a>
-    </p>
-    <p>
-        <a target="_blank" href="https://www.instagram.com">Open instagram</a>
-    </p>
-        <a target="_blank" href="https://www.chatgpt.com">Open chatgpt</a>
-    <p>
-       <a target="_blank" href="https://www.oracle.com/">Open oracle</a>
-    </p> 
+    <img width="250" height="220" src="train.png" alt="Train image">
 
     
+    <!--table-->
+    <!--tr,th,td,rowspan,colspan-->
+    <!--caption-->
+    <table>
+        <caption>Employee details</caption><br>
+        <thead>
+            <tr>
+                <th>Name</th>             
+                <th>Age</th>
+                <th>Designation</th>
+                <th>Fav Language</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+
+            <tr>
+                <td>Rohan</td>
+                <td>20</td>
+                <td>Programmar</td>
+                <td>Java</td>
+            </tr>
+            <tr>
+                <td>Rahul</td>
+                <td>34</td>
+                <td>Lab-technition</td>
+                <td>Hindi</td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">Ranveer</td>
+                
+                <td>student</td>
+                <td rowspan="2">English,Hindi and Telugu</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Ranveer</td>
+                <td>34</td>
+                <td>Lab-technition</td>
+                <td>foot</td>
+            </tr> 
+        </tfoot>
+    </table>
+    <!--lists-->
+    <!--unordered list (ul)-->
+    <!--ordered list (ol)-->
+    <!--defination list (dl)-->
+    <ul type="circle">
+        <li>Rohan</li>
+        <li>Happy</li>
+        <li>bellu</li>
+    </ul>
+    <ol type="i">
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ol>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language : The standard 
+            Language for creating web pages
+        </dd>
+        <br>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets: A stylesheet language used for describing the look and formatting of a document writen in HTML</dd>
+        <br>
+
+        <dt>JavaScript</dt>
+        <dd>A Programming Language Commonly used in a web development to add interactive features</dd>
+    
+    </dl>
+
 </body>
 </html>
