@@ -1,88 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Images </title>
-    <link rel="stylesheet" href="style.css">
+    <title>Forms -lets learn it</title>
 </head>
+
 <body>
-    <img width="250" height="220" src="train.png" alt="Train image">
+    <h1>Form to apply for Sigma Web Development course - TA</h1>
+    <form action="post">
+        <div>
 
-    
-    <!--table-->
-    <!--tr,th,td,rowspan,colspan-->
-    <!--caption-->
-    <table>
-        <caption>Employee details</caption><br>
-        <thead>
-            <tr>
-                <th>Name</th>             
-                <th>Age</th>
-                <th>Designation</th>
-                <th>Fav Language</th>
-            </tr>
-        </thead>
-        
-        <tbody>
+            <label for="username">Enter your username :</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username"><br>
+        </div>
+        <div>
 
-            <tr>
-                <td>Rohan</td>
-                <td>20</td>
-                <td>Programmar</td>
-                <td>Java</td>
-            </tr>
-            <tr>
-                <td>Rahul</td>
-                <td>34</td>
-                <td>Lab-technition</td>
-                <td>Hindi</td>
-            </tr>
-            
-            <tr>
-                <td colspan="2">Ranveer</td>
-                
-                <td>student</td>
-                <td rowspan="2">English,Hindi and Telugu</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>Ranveer</td>
-                <td>34</td>
-                <td>Lab-technition</td>
-                <td>foot</td>
-            </tr> 
-        </tfoot>
-    </table>
-    <!--lists-->
-    <!--unordered list (ul)-->
-    <!--ordered list (ol)-->
-    <!--defination list (dl)-->
-    <ul type="circle">
-        <li>Rohan</li>
-        <li>Happy</li>
-        <li>bellu</li>
-    </ul>
-    <ol type="i">
-        <li>Mango</li>
-        <li>Banana</li>
-        <li>Orange</li>
-    </ol>
-    <dl>
-        <dt>HTML</dt>
-        <dd>Hyper Text Markup Language : The standard 
-            Language for creating web pages
-        </dd>
-        <br>
-        <dt>CSS</dt>
-        <dd>Cascading Style Sheets: A stylesheet language used for describing the look and formatting of a document writen in HTML</dd>
-        <br>
+            <label for="Gender">Gender :</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subsribe">Subscribe to newsletter</label>
+        </div>
 
-        <dt>JavaScript</dt>
-        <dd>A Programming Language Commonly used in a web development to add interactive features</dd>
-    
-    </dl>
-
+        <label for="comment">Enter your comment </label>
+        <div>
+            <textarea name="comment" rows="3" col="100" id="comment" placeholder="Enter your comment here"></textarea>
+        </div>
+        <div>
+            <label for="cars">Enter your Favourate car:</label>
+            <select name="cars" id="cars">
+                <option value="Volvo">Volvo</option>
+                <option value="Benze">Benze</option>
+                <option value="Ferrari"Ferrari>Ferrari</option>
+            </select>
+        </div>
+    </form>
 </body>
+
 </html>
